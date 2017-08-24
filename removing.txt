@@ -1,0 +1,2 @@
+git filter-branch --index-filter "git rm -f --cached --ignore-unmatch svl/Assets/lif/Sample1.zip" -f --prune-empty --tag-name-filter cat -- --all
+
